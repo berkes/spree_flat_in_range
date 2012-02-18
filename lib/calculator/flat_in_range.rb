@@ -11,10 +11,10 @@ module Spree
     def compute(object)
       sum = 0
       item_total = object.line_items.map(&:amount).sum
-      if (item_total >= lower_boundry && item_total <= upper_boundry)
+      if (item_total >= self.preferred_lower_boundry && item_total <= self.preferred_upper_boundry)
         return self.preferred_amount.to_s
       else
-        return 0
+        return "0.0"
       end
     end
   end
