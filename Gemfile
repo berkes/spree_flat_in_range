@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 group :test do
+  gem "spree_auth"
   gem 'ffaker'
 end
 
@@ -11,3 +12,4 @@ else
 end
 
 gemspec
+
