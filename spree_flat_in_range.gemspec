@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.email             = 'ber@webschuur.com'
   # s.homepage          = 'http://www.spreecommerce.com'
 
-  s.files         = Dir['README.md', 'LICENSE', 'lib/**/*']
-  s.test_files    = Dir['spec/*', 'spec/**/*']
+  s.files         = Dir['README.md', 'LICENSE', 'lib/*', 'app/**/*', 'config/**/*']
+  s.test_files    = Dir['spec/**/*']
   s.require_path = 'lib'
   s.requirements << 'none'
 
