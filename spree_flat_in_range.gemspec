@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_flat_in_range'
-  s.version     = '0.1'
+  s.version     = '0.1.0'
   s.summary     = 'Spree adjusmtent calculator for fixed rates within a range'
   s.description = '
     A Spree calculator to calculate fixed adjustments based on ranges.

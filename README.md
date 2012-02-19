@@ -13,7 +13,7 @@ Usage
 
 Add to your gemfile in a Spree application:
 
-`` gem 'spree_flat_in_range', '~> 0.x' ``
+`` gem 'spree_flat_in_range', '~> 0.1.x' ``
 
 Then visit shipping or tax to use the calculation.
 
