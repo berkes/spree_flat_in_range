@@ -2,14 +2,19 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_flat_in_range'
-  s.version     = '1.0.0'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.version     = '0.1'
+  s.summary     = 'Spree adjusmtent calculator for fixed rates within a range'
+  s.description = '
+    A Spree calculator to calculate fixed adjustments based on ranges.
+
+    For example, **free shipping above $100, and $4.39 for all orders under $100**,
+    would mean a range *from 0 to $99.99*, that *has a fixed shipping rate of $4.39*.
+  '
   s.required_ruby_version = '>= 1.8.7'
 
   s.author            = 'Bèr Kessels'
   s.email             = 'ber@webschuur.com'
-  # s.homepage          = 'http://www.spreecommerce.com'
+  s.homepage          = 'https://github.com/berkes/spree_flat_in_range'
 
   s.files         = Dir['README.md', 'LICENSE', 'lib/*', 'app/**/*', 'config/**/*']
   s.test_files    = Dir['spec/**/*']
