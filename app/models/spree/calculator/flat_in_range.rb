@@ -3,7 +3,7 @@ module Spree
     preference :lower_boundry,    :decimal, :default => 0.0
     preference :upper_boundry,    :decimal, :default => 50.0
     preference :amount,           :decimal, :default => 5.0
-
+    attr_accessible :preferred_lower_boundry, :preferred_upper_boundry, :preferred_amount
     def self.description
       I18n.t(:flat_in_range)
     end
